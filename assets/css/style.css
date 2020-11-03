@@ -1,0 +1,532 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: white;
+  font-weight: lighter;
+  content: ">"; }
+
+.banner-productos {
+  background-color: #4472CA;
+  padding: 3rem 4rem 2rem !important;
+  margin-top: 6.8rem; }
+  .banner-productos h2 {
+    color: white; }
+  .banner-productos .breadcrumb {
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter; }
+    .banner-productos .breadcrumb li {
+      color: white !important;
+      font-weight: bold; }
+      .banner-productos .breadcrumb li a {
+        color: white;
+        font-weight: lighter; }
+
+a {
+  color: #6c757d; }
+
+a:hover {
+  color: #0A369D;
+  text-decoration: none; }
+
+::selection {
+  background: #0A369D;
+  text-shadow: none; }
+
+footer {
+  padding: 2rem 0;
+  background-color: #212529; }
+
+.footer-column:not(:first-child) {
+  padding-top: 2rem; }
+  @media (min-width: 768px) {
+    .footer-column:not(:first-child) {
+      padding-top: 0rem; } }
+
+.footer-column {
+  text-align: center; }
+  .footer-column .nav-item .nav-link {
+    padding: 0.1rem 0; }
+  .footer-column .nav-item span.nav-link {
+    color: #6c757d; }
+  .footer-column .nav-item span.footer-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase; }
+  .footer-column .nav-item .fas {
+    margin-right: 0.5rem; }
+  .footer-column ul {
+    display: inline-block; }
+    @media (min-width: 768px) {
+      .footer-column ul {
+        text-align: left; } }
+
+ul.social-buttons {
+  margin-bottom: 0; }
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  background-color: #0A369D; }
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  background-color: #1a1d20; }
+
+footer .quick-links {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: "Roboto", sans-serif; }
+
+.copyright {
+  color: white; }
+
+.fa-ellipsis-h {
+  color: white;
+  padding: 2rem 0; }
+
+.cards_container {
+  padding: 2rem 3.5rem !important; }
+  @media (min-width: 992px) {
+    .cards_container {
+      padding: 5rem 10rem !important; } }
+  @media (min-width: 1200px) {
+    .cards_container {
+      padding: 2rem !important; } }
+  .cards_container .card-one {
+    padding-bottom: 1rem;
+    /* This container is needed to position the front and back side */
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    /* Position the front and back side */
+    /* Style the front side (fallback if image is missing) */
+    /* Style the back side */ }
+    @media (min-width: 756px) {
+      .cards_container .card-one {
+        padding-bottom: 2rem; } }
+    .cards_container .card-one .flip-card {
+      border-radius: 2rem;
+      background-color: transparent;
+      width: 300px;
+      height: 400px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px;
+      /* Remove this if you don't want the 3D effect */ }
+    .cards_container .card-one .flip-card-inner {
+      border-radius: 2rem;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d; }
+    .cards_container .card-one .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg); }
+    .cards_container .card-one .flip-card-front, .cards_container .card-one .flip-card-back {
+      border-radius: 2rem;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      /* Safari */
+      backface-visibility: hidden; }
+    .cards_container .card-one .flip-card-front {
+      padding: 2rem;
+      background-color: #0A369D;
+      color: white; }
+      .cards_container .card-one .flip-card-front h3 {
+        padding-bottom: 10rem;
+        font-size: 3rem; }
+      .cards_container .card-one .flip-card-front p {
+        font-size: 1.3rem; }
+        .cards_container .card-one .flip-card-front p svg {
+          margin-left: 2rem; }
+    .cards_container .card-one .flip-card-back {
+      padding: 2rem;
+      background-color: #0A369D;
+      color: white;
+      transform: rotateY(180deg); }
+      .cards_container .card-one .flip-card-back p {
+        padding: 0rem 1rem 3rem;
+        font-size: 1.3rem; }
+      .cards_container .card-one .flip-card-back a {
+        background-color: #D21849;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin-top: 2rem !important;
+        color: white;
+        text-decoration: none; }
+  .cards_container .card-two {
+    padding-bottom: 1rem;
+    /* This container is needed to position the front and back side */
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    /* Position the front and back side */
+    /* Style the front side (fallback if image is missing) */
+    /* Style the back side */ }
+    @media (min-width: 756px) {
+      .cards_container .card-two {
+        padding-left: 1rem;
+        padding-bottom: 2rem; } }
+    .cards_container .card-two .flip-card {
+      border-radius: 2rem;
+      background-color: transparent;
+      width: 300px;
+      height: 400px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px;
+      /* Remove this if you don't want the 3D effect */ }
+    .cards_container .card-two .flip-card-inner {
+      border-radius: 2rem;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d; }
+    .cards_container .card-two .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg); }
+    .cards_container .card-two .flip-card-front, .cards_container .card-two .flip-card-back {
+      border-radius: 2rem;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      /* Safari */
+      backface-visibility: hidden; }
+    .cards_container .card-two .flip-card-front {
+      padding: 2rem;
+      background-color: #4472CA;
+      color: white; }
+      .cards_container .card-two .flip-card-front h3 {
+        padding-bottom: 6.5rem;
+        font-size: 3rem; }
+      .cards_container .card-two .flip-card-front p {
+        font-size: 1.3rem; }
+        .cards_container .card-two .flip-card-front p svg {
+          margin-left: 2rem; }
+    .cards_container .card-two .flip-card-back {
+      padding: 2rem;
+      background-color: #4472CA;
+      color: white;
+      transform: rotateY(180deg); }
+      .cards_container .card-two .flip-card-back p {
+        padding: 0rem 1rem 3rem;
+        font-size: 1.3rem; }
+      .cards_container .card-two .flip-card-back a {
+        background-color: #D21849;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin-top: 2rem !important;
+        color: white;
+        text-decoration: none; }
+  .cards_container .card-three {
+    padding-bottom: 1rem;
+    /* This container is needed to position the front and back side */
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    /* Position the front and back side */
+    /* Style the front side (fallback if image is missing) */
+    /* Style the back side */ }
+    @media (min-width: 756px) {
+      .cards_container .card-three {
+        padding-left: 0rem;
+        padding-bottom: 2rem; } }
+    @media (min-width: 1200px) {
+      .cards_container .card-three {
+        padding-left: 2em;
+        padding-bottom: 2rem; } }
+    .cards_container .card-three .flip-card {
+      border-radius: 2rem;
+      background-color: transparent;
+      width: 300px;
+      height: 400px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px;
+      /* Remove this if you don't want the 3D effect */ }
+    .cards_container .card-three .flip-card-inner {
+      border-radius: 2rem;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d; }
+    .cards_container .card-three .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg); }
+    .cards_container .card-three .flip-card-front, .cards_container .card-three .flip-card-back {
+      border-radius: 2rem;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      /* Safari */
+      backface-visibility: hidden; }
+    .cards_container .card-three .flip-card-front {
+      padding: 2rem;
+      background-color: #5E7CE2;
+      color: white; }
+      .cards_container .card-three .flip-card-front h3 {
+        padding-bottom: 10rem;
+        font-size: 3rem; }
+      .cards_container .card-three .flip-card-front p {
+        font-size: 1.3rem; }
+        .cards_container .card-three .flip-card-front p svg {
+          margin-left: 2rem; }
+    .cards_container .card-three .flip-card-back {
+      padding: 2rem;
+      background-color: #5E7CE2;
+      color: white;
+      transform: rotateY(180deg); }
+      .cards_container .card-three .flip-card-back p {
+        padding: 0rem 1rem 3rem;
+        font-size: 1.3rem; }
+      .cards_container .card-three .flip-card-back a {
+        background-color: #D21849;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin-top: 2rem !important;
+        color: white;
+        text-decoration: none; }
+  .cards_container .card-four {
+    padding-bottom: 1rem;
+    /* This container is needed to position the front and back side */
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    /* Position the front and back side */
+    /* Style the front side (fallback if image is missing) */
+    /* Style the back side */ }
+    @media (min-width: 756px) {
+      .cards_container .card-four {
+        padding-left: 1rem;
+        padding-bottom: 2rem; } }
+    @media (min-width: 1200px) {
+      .cards_container .card-four {
+        padding-left: 2rem;
+        padding-bottom: 2rem; } }
+    .cards_container .card-four .flip-card {
+      border-radius: 2rem;
+      background-color: transparent;
+      width: 300px;
+      height: 400px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px;
+      /* Remove this if you don't want the 3D effect */ }
+    .cards_container .card-four .flip-card-inner {
+      border-radius: 2rem;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d; }
+    .cards_container .card-four .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg); }
+    .cards_container .card-four .flip-card-front, .cards_container .card-four .flip-card-back {
+      border-radius: 2rem;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      /* Safari */
+      backface-visibility: hidden; }
+    .cards_container .card-four .flip-card-front {
+      padding: 2rem;
+      background-color: #92B4F4;
+      color: white; }
+      .cards_container .card-four .flip-card-front h3 {
+        padding-bottom: 10rem;
+        font-size: 3rem; }
+      .cards_container .card-four .flip-card-front p {
+        font-size: 1.3rem; }
+        .cards_container .card-four .flip-card-front p svg {
+          margin-left: 2rem; }
+    .cards_container .card-four .flip-card-back {
+      padding: 2rem;
+      background-color: #92B4F4;
+      color: white;
+      transform: rotateY(180deg); }
+      .cards_container .card-four .flip-card-back p {
+        padding: 0rem 1rem 3rem;
+        font-size: 1.3rem; }
+      .cards_container .card-four .flip-card-back a {
+        background-color: #D21849;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin-top: 2rem !important;
+        color: white;
+        text-decoration: none; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.navbar {
+  background-color: white !important;
+  padding: 1.5rem 3rem !important;
+  font-family: 'Roboto', sans-serif; }
+  .navbar .logo {
+    width: 50px; }
+  .navbar .nav-link {
+    font-size: 1.2rem; }
+    @media (min-width: 992px) {
+      .navbar .nav-link {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important; } }
+  .navbar .nav-item :hover {
+    background-color: #4472CA !important;
+    color: white !important;
+    border-radius: 2rem;
+    text-align: center; }
+  .navbar .dropdown-menu {
+    background-color: #4472CA; }
+    .navbar .dropdown-menu .dropdown-item {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 1rem; }
+
+/*CAROUSEL*/
+.carousel-inner .carousel-item {
+  height: 500px !important; }
+  @media (min-width: 992px) {
+    .carousel-inner .carousel-item {
+      height: 100vh !important; } }
+
+.carousel-inner .carousel-caption {
+  font-family: 'Roboto', sans-serif;
+  padding: 4rem 2rem !important; }
+  @media (min-width: 756px) {
+    .carousel-inner .carousel-caption {
+      padding: 7rem 2rem !important; } }
+  .carousel-inner .carousel-caption h2 {
+    margin-bottom: 2rem; }
+    @media (min-width: 992px) {
+      .carousel-inner .carousel-caption h2 {
+        font-size: 5rem; } }
+  .carousel-inner .carousel-caption .carousel-button {
+    font-weight: 500;
+    background-color: #4472CA;
+    padding: 1rem 2rem;
+    color: white; }
+
+.carousel-inner .first-slide {
+  background-image: url(../../img/4074969.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.carousel-inner .second-slide {
+  background-image: url(../../img/15799.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.carousel-inner .third-slide {
+  background-image: url(../../img/9374.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+/*WELCOME BANNER*/
+.welcome_banner {
+  background-color: #CFDEE7;
+  font-family: 'Roboto', sans-serif;
+  color: white; }
+  .welcome_banner .sectionone_banner {
+    padding: 5rem 6rem 0rem !important; }
+    @media (min-width: 756px) {
+      .welcome_banner .sectionone_banner {
+        padding: 5rem 6rem !important; } }
+    .welcome_banner .sectionone_banner h1 {
+      color: #4472CA;
+      font-size: 1.5rem; }
+    .welcome_banner .sectionone_banner p {
+      color: black;
+      font-size: 2rem;
+      font-style: italic;
+      font-weight: 100; }
+  .welcome_banner .sectiontwo_banner {
+    padding: 0rem 6rem 5rem !important; }
+    @media (min-width: 756px) {
+      .welcome_banner .sectiontwo_banner {
+        padding: 5rem 2rem !important; } }
+    .welcome_banner .sectiontwo_banner p {
+      margin-bottom: 2rem;
+      font-size: 1.3rem;
+      font-weight: 100; }
+      @media (min-width: 992px) {
+        .welcome_banner .sectiontwo_banner p {
+          font-size: 1.5rem; } }
+    .welcome_banner .sectiontwo_banner .banner_button {
+      font-weight: 500;
+      background-color: #4472CA;
+      padding: 1rem 2rem;
+      color: white; }
+
+/*ABOUT US BANNER*/
+.aboutus_banner {
+  background-color: #0A369D;
+  background-attachment: fixed;
+  padding: 2rem 5rem !important;
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+  .aboutus_banner .icon {
+    width: 100px;
+    height: 100px; }
+  .aboutus_banner .mt-4 {
+    margin-top: 3rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .aboutus_banner h2 {
+    font-weight: lighter; }
+  .aboutus_banner h3 {
+    margin-top: 1rem;
+    font-weight: bold; }
+  .aboutus_banner p {
+    font-weight: lighter;
+    color: whitesmoke !important; }
+
+/*FAQ*/
+.faq_container {
+  padding: 2rem !important;
+  font-family: 'Roboto', sans-serif; }
+  @media (min-width: 992px) {
+    .faq_container {
+      padding: 4rem 20rem !important; } }
+  .faq_container h2 {
+    font-weight: lighter; }
+  .faq_container .accordion .card {
+    margin-top: 2rem;
+    border-radius: 2rem; }
+    .faq_container .accordion .card .card-header {
+      padding: 1.25rem !important;
+      background-color: #92B4F4;
+      border-bottom: 1px solid #92B4F4;
+      height: 5rem !important; }
+      .faq_container .accordion .card .card-header h2 button {
+        font-weight: lighter;
+        font-size: 1.5rem; }
+      .faq_container .accordion .card .card-header .btn-link {
+        color: white; }
+      .faq_container .accordion .card .card-header .btn-link:hover {
+        color: white !important;
+        text-decoration: none !important; }
+      .faq_container .accordion .card .card-header .btn:focus {
+        outline: 0px;
+        box-shadow: none; }
+      .faq_container .accordion .card .card-header a {
+        text-decoration: none; }
+      .faq_container .accordion .card .card-header .white-icon {
+        color: white; }

@@ -1,0 +1,204 @@
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    background-color: white !important; 
+    padding: 1.5rem 3rem !important;
+    font-family: 'Roboto', sans-serif;
+    .logo {
+        width: 50px;
+    }
+    .nav-link {
+        font-size: 1.2rem;
+        @media (min-width: 992px) {
+            padding-right: 1.5rem !important;
+            padding-left: 1.5rem !important;
+        }
+       
+    }
+    .nav-item {
+        :hover {
+            background-color: #4472CA !important;
+            color: white !important;
+            border-radius: 2rem;
+            text-align: center;
+        }
+    }
+    .dropdown-menu {
+        background-color: #4472CA;
+        .dropdown-item {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 1rem;
+        }
+    }
+}
+/*CAROUSEL*/
+.carousel-inner {
+    .carousel-item {
+        height: 500px !important;
+        @media (min-width: 992px) {
+            height: 100vh !important;
+        }
+    }
+    .carousel-caption {
+        font-family: 'Roboto', sans-serif;
+        padding: 4rem 2rem !important;
+        @media (min-width: 756px) {
+            padding: 7rem 2rem !important;
+        }
+        h2 {
+            margin-bottom: 2rem;
+            @media (min-width: 992px) {
+               font-size: 5rem;
+            }
+        }
+        .carousel-button {
+            font-weight: 500;
+            background-color: #4472CA;
+            padding: 1rem 2rem;
+            color: white;
+        }
+    }
+    
+    .first-slide {
+        background-image: url(../../img/4074969.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    .second-slide {
+        background-image: url(../../img/15799.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    .third-slide {
+        background-image: url(../../img/9374.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+}
+/*WELCOME BANNER*/
+.welcome_banner {
+    background-color: #CFDEE7;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    .sectionone_banner {
+        padding: 5rem 6rem 0rem !important;
+        @media (min-width: 756px) {
+            padding: 5rem 6rem !important;
+        }
+        h1 {
+            color: #4472CA;
+            font-size: 1.5rem;
+        }
+        p {
+            color: black;
+            font-size: 2rem;
+            font-style: italic;
+            font-weight: 100;
+        }
+    }
+    .sectiontwo_banner {
+        padding: 0rem 6rem 5rem !important;
+        @media (min-width: 756px) {
+            padding: 5rem 2rem !important;
+        }
+        p {
+            margin-bottom: 2rem;
+            font-size: 1.3rem;
+            font-weight: 100;
+            @media (min-width: 992px) {
+                font-size: 1.5rem;
+            }
+        }
+        .banner_button {
+            font-weight: 500;
+            background-color: #4472CA;
+            padding: 1rem 2rem;
+            color: white;
+        }
+    }
+}
+/*ABOUT US BANNER*/
+.aboutus_banner {
+    background-color: #0A369D;
+    background-attachment: fixed;
+    padding: 2rem 5rem !important;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .mt-4 {
+        margin-top: 3rem !important;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    h2 {
+        font-weight: lighter;
+    }
+    h3 {
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+    p {
+        font-weight: lighter;
+        color: whitesmoke !important;
+    }
+}
+/*FAQ*/
+.faq_container {
+    padding: 2rem !important;
+    font-family: 'Roboto', sans-serif;
+    @media (min-width: 992px) {
+        padding: 4rem 20rem !important;
+    }
+    h2 {
+        font-weight: lighter;
+    }
+   
+    .accordion {
+        .card {
+            margin-top: 2rem;
+            border-radius: 2rem;
+            .card-header {
+                padding: 1.25rem !important;
+                background-color: #92B4F4;
+                border-bottom: 1px solid #92B4F4;
+                height: 5rem !important;
+                h2 {
+                    button {
+                        font-weight: lighter;
+                        font-size: 1.5rem;
+                    }
+                }
+                .btn-link {
+                    color: white;
+                }
+                .btn-link:hover {
+                    color: white !important;
+                    text-decoration: none !important;
+                }
+                .btn:focus {
+                    outline: 0px;
+                    box-shadow: none;
+                }
+                a {
+                    text-decoration: none;
+                }
+                .white-icon {
+                    color: white;
+                }
+            }
+        }
+    }
+
+}
