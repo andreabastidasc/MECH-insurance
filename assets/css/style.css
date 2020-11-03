@@ -6,9 +6,15 @@
   content: ">"; }
 
 .banner-productos {
-  background-color: #4472CA;
+  background-image: url(../../img/4074969.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
   padding: 3rem 4rem 2rem !important;
   margin-top: 6.8rem; }
+  @media (min-width: 992px) {
+    .banner-productos {
+      padding: 3rem 10rem 2rem !important; } }
   .banner-productos h2 {
     color: white; }
   .banner-productos .breadcrumb {
@@ -21,6 +27,20 @@
       .banner-productos .breadcrumb li a {
         color: white;
         font-weight: lighter; }
+
+.header-cards h2 {
+  color: #4472CA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter; }
+  @media (min-width: 992px) {
+    .header-cards h2 {
+      font-size: 3rem; } }
+
+.header-cards p {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem; }
 
 a {
   color: #6c757d; }
@@ -95,8 +115,7 @@ footer .quick-links {
   color: white; }
 
 .fa-ellipsis-h {
-  color: white;
-  padding: 2rem 0; }
+  color: white; }
 
 .cards_container {
   padding: 2rem 3.5rem !important; }
@@ -526,6 +545,8 @@ img {
       .faq_container .accordion .card .card-header .btn:focus {
         outline: 0px;
         box-shadow: none; }
+      .faq_container .accordion .card .card-header .btn {
+        padding: 0; }
       .faq_container .accordion .card .card-header a {
         text-decoration: none; }
       .faq_container .accordion .card .card-header .white-icon {
