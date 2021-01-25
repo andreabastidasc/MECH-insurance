@@ -1,0 +1,47 @@
+.contact-container {
+    i {
+        color: rgba(189, 188, 188, 0.726);
+        :hover {
+            color: #5E7CE2 !important;
+        }
+    }
+    svg {
+        color: rgba(189, 188, 188, 0.726);
+        :hover {
+            color: #5E7CE2 !important;
+        }
+    }
+    h4 {
+        color: rgba(189, 188, 188, 0.726) !important;
+        :hover {
+            color: #5E7CE2 !important;
+            text-decoration: none
+        }
+    }
+    a {
+        color: rgba(189, 188, 188, 0.726) !important;
+        :hover {
+            color: #5E7CE2 !important;
+        }
+    }
+}
+.map-container {
+    padding: 2rem 2rem 0rem;
+    @media(min-width: 768px) {
+        padding: 4rem 4rem 0rem;
+    }
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        svg {
+            color: rgba(189, 188, 188, 0.726);
+        }
+    }
+    iframe {
+        width: 300px;
+        height: 400px;
+        @media(min-width: 768px) {
+            width: 500px;
+        }
+    }
+}
