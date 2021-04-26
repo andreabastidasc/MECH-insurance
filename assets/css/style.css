@@ -155,9 +155,12 @@
 
 footer {
   padding: 2rem 0;
-  background-color: #212529; }
+  background-color: #1a1d20; }
   footer a {
     color: #6c757d; }
+  footer .golden-logo {
+    width: 150px;
+    height: fit-content; }
   footer a:hover {
     color: #0A369D;
     text-decoration: none; }
@@ -181,7 +184,7 @@ footer {
   .footer-column .nav-item span.footer-title {
     font-size: 14px;
     font-weight: 700;
-    color: #fff;
+    color: #6c757d;
     text-transform: uppercase; }
   .footer-column .nav-item .fas {
     margin-right: 0.5rem; }
@@ -216,7 +219,7 @@ footer .quick-links {
   font-family: "Roboto", sans-serif; }
 
 .copyright {
-  color: white; }
+  color: #6c757d; }
 
 .fa-ellipsis-h {
   color: white; }
@@ -282,13 +285,13 @@ footer .quick-links {
       color: white;
       transform: rotateY(180deg); }
       .cards_container .card-one .flip-card-back p {
-        padding: 0rem 1rem 3rem;
+        padding: 0rem 1rem 1rem;
         font-size: 1.3rem; }
       .cards_container .card-one .flip-card-back a {
         background-color: #D21849;
         padding: 1rem 2rem;
         border-radius: 2rem;
-        margin-top: 2rem !important;
+        margin-top: 0rem !important;
         color: white;
         text-decoration: none; }
   .cards_container .card-two {
@@ -333,7 +336,7 @@ footer .quick-links {
       background-color: #4472CA;
       color: white; }
       .cards_container .card-two .flip-card-front h3 {
-        padding-bottom: 6.5rem;
+        padding-bottom: 10rem;
         font-size: 3rem; }
       .cards_container .card-two .flip-card-front p {
         font-size: 1.3rem; }
@@ -345,13 +348,13 @@ footer .quick-links {
       color: white;
       transform: rotateY(180deg); }
       .cards_container .card-two .flip-card-back p {
-        padding: 0rem 1rem 3rem;
+        padding: 0rem 1rem 1rem;
         font-size: 1.3rem; }
       .cards_container .card-two .flip-card-back a {
         background-color: #D21849;
         padding: 1rem 2rem;
         border-radius: 2rem;
-        margin-top: 2rem !important;
+        margin-top: 0rem !important;
         color: white;
         text-decoration: none; }
   .cards_container .card-three {
@@ -400,7 +403,7 @@ footer .quick-links {
       background-color: #5E7CE2;
       color: white; }
       .cards_container .card-three .flip-card-front h3 {
-        padding-bottom: 10rem;
+        padding-bottom: 6.5rem;
         font-size: 3rem; }
       .cards_container .card-three .flip-card-front p {
         font-size: 1.3rem; }
@@ -412,13 +415,13 @@ footer .quick-links {
       color: white;
       transform: rotateY(180deg); }
       .cards_container .card-three .flip-card-back p {
-        padding: 0rem 1rem 3rem;
+        padding: 0rem 1rem 2rem;
         font-size: 1.3rem; }
       .cards_container .card-three .flip-card-back a {
         background-color: #D21849;
         padding: 1rem 2rem;
         border-radius: 2rem;
-        margin-top: 2rem !important;
+        margin-top: 0rem !important;
         color: white;
         text-decoration: none; }
   .cards_container .card-four {
@@ -467,7 +470,7 @@ footer .quick-links {
       background-color: #92B4F4;
       color: white; }
       .cards_container .card-four .flip-card-front h3 {
-        padding-bottom: 10rem;
+        padding-bottom: 3rem;
         font-size: 3rem; }
       .cards_container .card-four .flip-card-front p {
         font-size: 1.3rem; }
@@ -479,13 +482,13 @@ footer .quick-links {
       color: white;
       transform: rotateY(180deg); }
       .cards_container .card-four .flip-card-back p {
-        padding: 0rem 1rem 3rem;
+        padding: 0rem 1rem 2rem;
         font-size: 1.3rem; }
       .cards_container .card-four .flip-card-back a {
         background-color: #D21849;
         padding: 1rem 2rem;
         border-radius: 2rem;
-        margin-top: 2rem !important;
+        margin-top: 1rem !important;
         color: white;
         text-decoration: none; }
 
@@ -586,7 +589,7 @@ img {
       .welcome_banner .sectiontwo_banner {
         padding: 5rem 2rem !important; } }
     .welcome_banner .sectiontwo_banner p {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       font-size: 1.3rem;
       font-weight: 100; }
       @media (min-width: 992px) {

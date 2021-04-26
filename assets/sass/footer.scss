@@ -4,12 +4,6 @@ $footer-background-light-grey: #212529;
 $footer-background-grey: #1a1d20;
 $social-buttons-circle-dark-grey: #1a1d20;
 
-.col-md-4:nth-child(even) {
-  // background: blue;
-}
-.col-md-4:nth-child(odd) {
-  // background: red;
-}
 
 
 
@@ -20,12 +14,17 @@ $social-buttons-circle-dark-grey: #1a1d20;
 
 footer {
   padding: 2rem 0;
-  background-color: #212529;
+  background-color: $footer-background-grey;
   // .container .row:not(:last-child) {
   //   padding-bottom: 2rem;
   // }
   a {
     color: $link-light-grey;
+  }
+  .golden-logo {
+    width: 150px;
+    height: fit-content;
+    
   }
   a:hover {
     color: $primary-blue;
@@ -58,7 +57,7 @@ ul.social-buttons li a:hover {
     span.footer-title {
       font-size: 14px;
       font-weight: 700;
-      color: #fff;
+      color: $link-light-grey;
       text-transform: uppercase;
     }
     .fas {
@@ -104,7 +103,7 @@ footer .quick-links {
 }
 
 .copyright {
-  color: white;
+  color: $link-light-grey;
 }
 
 .fa-ellipsis-h {
