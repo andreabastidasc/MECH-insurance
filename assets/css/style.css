@@ -286,9 +286,10 @@ footer .quick-links {
       transform: rotateY(180deg); }
       .cards_container .card-one .flip-card-back p {
         padding: 0rem 1rem 1rem;
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        margin-bottom: 5.5rem; }
       .cards_container .card-one .flip-card-back a {
-        background-color: #D21849;
+        background-color: #f2acb6;
         padding: 1rem 2rem;
         border-radius: 2rem;
         margin-top: 0rem !important;
@@ -336,7 +337,7 @@ footer .quick-links {
       background-color: #4472CA;
       color: white; }
       .cards_container .card-two .flip-card-front h3 {
-        padding-bottom: 10rem;
+        padding-bottom: 13.5rem;
         font-size: 3rem; }
       .cards_container .card-two .flip-card-front p {
         font-size: 1.3rem; }
@@ -351,7 +352,7 @@ footer .quick-links {
         padding: 0rem 1rem 1rem;
         font-size: 1.3rem; }
       .cards_container .card-two .flip-card-back a {
-        background-color: #D21849;
+        background-color: #f2acb6;
         padding: 1rem 2rem;
         border-radius: 2rem;
         margin-top: 0rem !important;
@@ -418,7 +419,7 @@ footer .quick-links {
         padding: 0rem 1rem 2rem;
         font-size: 1.3rem; }
       .cards_container .card-three .flip-card-back a {
-        background-color: #D21849;
+        background-color: #f2acb6;
         padding: 1rem 2rem;
         border-radius: 2rem;
         margin-top: 0rem !important;
@@ -483,9 +484,10 @@ footer .quick-links {
       transform: rotateY(180deg); }
       .cards_container .card-four .flip-card-back p {
         padding: 0rem 1rem 2rem;
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        margin-bottom: 3.2rem; }
       .cards_container .card-four .flip-card-back a {
-        background-color: #D21849;
+        background-color: #f2acb6;
         padding: 1rem 2rem;
         border-radius: 2rem;
         margin-top: 1rem !important;
@@ -507,7 +509,7 @@ img {
   padding: 1.5rem 3rem !important;
   font-family: 'Roboto', sans-serif; }
   .navbar .logo {
-    width: 60px; }
+    width: 80px; }
   .navbar .nav-link {
     font-size: 1.2rem; }
     @media (min-width: 992px) {
