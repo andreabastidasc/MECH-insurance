@@ -7,7 +7,7 @@ addEventListener("DOMContentLoaded", (event) => {
     })
 
     const changeLanguage = async language => {
-        const requestJson = await fetch(`/lang/${language}.json`);
+        const requestJson = await fetch(`https://raw.githubusercontent.com/andreabastidasc/MECH-insurance/main/lang/${language}.json`);
         const texts = await requestJson.json();
 
         for(const langTextElement of langTextElements) {
