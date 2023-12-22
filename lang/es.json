@@ -1,0 +1,13 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "plans": "Planes",
+        "about": "Sobre Nosotros",
+        "products": "Productos",
+        "contact": "Contacto",
+        "medicare": "Opciones de Medicare",
+        "aca": "ACA (Obamacare)",
+        "other": "Otras opciones de salud",
+        "life": "Seguro de vida/opciones funerales"
+    }
+}

@@ -39,6 +39,14 @@ img {
             margin-top: 1rem;
         }
     }
+    .nav-language {
+        width: 65px;
+
+        option {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+        }
+    }
 }
 /*CAROUSEL*/
 .carousel-inner {

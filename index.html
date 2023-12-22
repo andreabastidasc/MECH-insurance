@@ -34,6 +34,7 @@
 			integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
 			crossorigin="anonymous"
 		></script>
+		<script src="./JS/lang.js"></script>
 	</head>
 	<body class="container-fluid no-gutters">
 		<header class="row no-gutters">
@@ -55,7 +56,14 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+							<a 
+								class="nav-link" 
+								href="#"
+								data-section="navbar" 
+								data-value="home"
+							>
+								Inicio 
+							<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item dropdown">
 							<a
@@ -66,26 +74,84 @@
 								data-toggle="dropdown"
 								aria-haspopup="true"
 								aria-expanded="false"
+								data-section="navbar" 
+								data-value="plans"
 							>
 								Planes
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="./views/medicare.html">Opciones de Medicare</a>
-								<a class="dropdown-item" href="./views/segurodesalud.html">ACA(Obamacare)</a>
-								<a class="dropdown-item" href="./views/segurodental.html">Otras opciones de salud</a>
-								<a class="dropdown-item" href="./views/segurodevida.html">Seguro de vida/Opciones funerales</a>
+								<a 
+									class="dropdown-item" 
+									href="./views/medicare.html"
+									data-section="navbar" 
+									data-value="medicare"
+								>
+									Opciones de Medicare
+								</a>
+								<a 
+									class="dropdown-item" 
+									href="./views/segurodesalud.html"
+									data-section="navbar" 
+									data-value="aca"
+								>
+									ACA(Obamacare)
+								</a>
+								<a 
+									class="dropdown-item" 
+									href="./views/segurodental.html"
+									data-section="navbar" 
+									data-value="other"
+								>
+									Otras opciones de salud
+								</a>
+								<a 
+									class="dropdown-item" 
+									href="./views/segurodevida.html"
+									data-section="navbar" 
+									data-value="life"
+								>
+									Seguro de vida/Opciones funerales
+								</a>
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="./views/aboutus.html">Sobre Nosotros</a>
+							<a 
+								class="nav-link" 
+								href="./views/aboutus.html"
+								data-section="navbar" 
+								data-value="about"
+							>
+								Sobre Nosotros
+							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="./views/productos.html">Productos</a>
+							<a 
+								class="nav-link" 
+								href="./views/productos.html"
+								data-section="navbar" 
+								data-value="products"
+							>
+								Productos
+							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="./views/contacto.html">Contacto</a>
+						<li 
+							class="nav-item"
+							
+						>
+							<a 
+								class="nav-link" 
+								href="./views/contacto.html"
+								data-section="navbar" 
+								data-value="contact"
+							>
+								Contacto
+							</a>
 						</li>
 					</ul>
+					<select id="lang" class="form-control form-control-sm rounded-pill nav-language ml-2">
+						<option data-language="es">ES</option>
+						<option data-language="en">EN</option>
+					</select>
 				</div>
 			</nav>
 		</header>

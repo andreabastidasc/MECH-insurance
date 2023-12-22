@@ -527,6 +527,11 @@ img {
       color: white;
       font-family: 'Roboto', sans-serif;
       margin-top: 1rem; }
+  .navbar .nav-language {
+    width: 65px; }
+    .navbar .nav-language option {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px; }
 
 /*CAROUSEL*/
 .carousel-inner .carousel-item {
