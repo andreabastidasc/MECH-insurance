@@ -3,7 +3,7 @@ addEventListener("DOMContentLoaded", (event) => {
     const langTextElements = document.querySelectorAll("[data-section]");
 
     langElement.addEventListener("click", (e) => {
-        changeLanguage(e.target.value)
+        changeLanguage(e.target.value);
     })
 
     const changeLanguage = async language => {
