@@ -9,5 +9,13 @@
         "aca": "ACA (Obamacare)",
         "other": "Other options",
         "life": "Life insurance/funeral options"
+    },
+    "jumbotron": {
+        "slide-one": "A plan for your needs.",
+        "slide-one-button": "See products",
+        "slide-two": "Personalized advice.",
+        "slide-two-button": "Contact us",
+        "slide-three": "Immediate incorporation.",
+        "slide-three-button": "Quote"
     }
 }
