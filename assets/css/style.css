@@ -528,7 +528,7 @@ img {
       font-family: 'Roboto', sans-serif;
       margin-top: 1rem; }
   .navbar .nav-language {
-    width: 65px; }
+    width: 65px !important; }
     .navbar .nav-language option {
       font-family: 'Roboto', sans-serif;
       font-size: 14px; }
