@@ -37,5 +37,16 @@
         "cardFourPlans": "Whole life <br> Term <br> Indexed Policies <br> Funeral expense insurance <br> Preneed (funeral plan)",
         "cardCta": "Plans <i class='fas fa-arrow-right'></i>",
         "cardSecondaryCta": "See more"
+    },
+    "about-banner": {
+        "title": "Why choose us?",
+        "item-one-title": "Efficient support",
+        "item-one-description": "We have experts working for you and your needs.",
+        "item-two-title": "Complete plans",
+        "item-two-description": "Your life has many facets and we have a plan for each one of them.",
+        "item-three-title": "Personalized information",
+        "item-three-description": "You are different from others, we will adjust to your lifestyle.",
+        "item-four-title": "Empathy",
+        "item-four-description": "We will work together to provide you with the security you need."
     }
 }

@@ -37,5 +37,16 @@
         "cardFourPlans": "Vida entera <br> Término <br> Pólizas Indexadas <br> Seguros para gastos funerales <br> Preneed (plan funeral)",
         "cardCta": "Planes <i class='fas fa-arrow-right'></i>",
         "cardSecondaryCta": "Ver más"
+    },
+    "about-banner": {
+        "title": "¿Por qué nos eligen?",
+        "item-one-title": "Soporte eficiente",
+        "item-one-description": "Tenemos expertos trabajando para ti y tus necesidades.",
+        "item-two-title": "Planes completos",
+        "item-two-description": "Tu vida tiene muchas facetas y tenemos un plan para cada una de ellas.",
+        "item-three-title": "Información personalizada",
+        "item-three-description": "Eres diferente a los demás, nos ajustaremos a tu estilo de vida.",
+        "item-four-title": "Empatía",
+        "item-four-description": "Trabajeremos juntos para brindarte la seguridad que necesitas."
     }
 }
