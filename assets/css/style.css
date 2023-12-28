@@ -276,7 +276,9 @@ footer .quick-links {
         padding-bottom: 6.3rem;
         font-size: 3rem; }
       .cards_container .card-one .flip-card-front p {
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        position: absolute;
+        top: 80%; }
         .cards_container .card-one .flip-card-front p svg {
           margin-left: 2rem; }
     .cards_container .card-one .flip-card-back {
@@ -294,7 +296,9 @@ footer .quick-links {
         border-radius: 2rem;
         margin-top: 0rem !important;
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        position: absolute;
+        top: 80%; }
   .cards_container .card-two {
     padding-bottom: 1rem;
     /* This container is needed to position the front and back side */
@@ -340,7 +344,9 @@ footer .quick-links {
         padding-bottom: 13.5rem;
         font-size: 3rem; }
       .cards_container .card-two .flip-card-front p {
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        position: absolute;
+        top: 80%; }
         .cards_container .card-two .flip-card-front p svg {
           margin-left: 2rem; }
     .cards_container .card-two .flip-card-back {
@@ -357,7 +363,9 @@ footer .quick-links {
         border-radius: 2rem;
         margin-top: 0rem !important;
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        position: absolute;
+        top: 80%; }
   .cards_container .card-three {
     padding-bottom: 1rem;
     /* This container is needed to position the front and back side */
@@ -407,7 +415,9 @@ footer .quick-links {
         padding-bottom: 6.5rem;
         font-size: 3rem; }
       .cards_container .card-three .flip-card-front p {
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        position: absolute;
+        top: 80%; }
         .cards_container .card-three .flip-card-front p svg {
           margin-left: 2rem; }
     .cards_container .card-three .flip-card-back {
@@ -424,7 +434,9 @@ footer .quick-links {
         border-radius: 2rem;
         margin-top: 0rem !important;
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        position: absolute;
+        top: 80%; }
   .cards_container .card-four {
     padding-bottom: 1rem;
     /* This container is needed to position the front and back side */
@@ -474,7 +486,9 @@ footer .quick-links {
         padding-bottom: 3rem;
         font-size: 3rem; }
       .cards_container .card-four .flip-card-front p {
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        position: absolute;
+        top: 80%; }
         .cards_container .card-four .flip-card-front p svg {
           margin-left: 2rem; }
     .cards_container .card-four .flip-card-back {
@@ -492,7 +506,9 @@ footer .quick-links {
         border-radius: 2rem;
         margin-top: 1rem !important;
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        position: absolute;
+        top: 77%; }
 
 .no-gutters {
   margin-right: 0;

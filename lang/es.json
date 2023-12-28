@@ -17,5 +17,25 @@
         "slide-two-button": "Contáctanos",
         "slide-three": "Incorporación inmediata.",
         "slide-three-button": "Cotizar"
+    },
+    "welcome-banner": {
+        "title": "Cuentas con Insurance MECH!",
+        "description": "Nuestro compromiso es con tu tranquilidad y bienestar en cada una de las etapas de tu vida.",
+        "about": "Somos una agencia de seguros de salud y vida dedicada a proporcionarte la solución que se adapte a tus necesidades. Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con todas las compañías de Medicare Advantage y ACA (Afordable Care Act), conocido como Obama Care. Te ayudamos a optar por mejores beneficios sin costo adicional!",
+        "about-secondary": "Además, contamos con un variado portafolio de productos para que estés siempre protegido en todas y cada una de las etapas de tu vida.",
+        "about-final": "Seleccionar el plan adecuado puede resultar difícil, cuenta con nosotros!",
+        "cta": "Productos"
+    },
+    "cards": {
+        "cardOneTitle": "Opciones de Medicare",
+        "cardOnePlans": "Medicare Advantage <br> Suplementos de Medicare <br> Planes de Medicamentos recetados",
+        "cardTwoTitle": "ACA <span style='font-size: 20px'>(Obamacare)</span>",
+        "cardTwoPlans": "HMO <br> EPO <br> Hospitalización <br> Medicamentos recetados <br> Laboratorio <br> Exámenes preventivos <br> Maternidad",
+        "cardThreeTitle": "Otras opciones de salud",
+        "cardThreePlans": "Seguros privados <br> Seguros de indemnización <br> Dental <br> Visión <br> Enfermedades críticas/cáncer <br> Pólizas accidentales",
+        "cardFourTitle": "Seguros de Vida/<br>Opciones Funerales",
+        "cardFourPlans": "Vida entera <br> Término <br> Pólizas Indexadas <br> Seguros para gastos funerales <br> Preneed (plan funeral)",
+        "cardCta": "Planes <i class='fas fa-arrow-right'></i>",
+        "cardSecondaryCta": "Ver más"
     }
 }

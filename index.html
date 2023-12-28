@@ -216,21 +216,56 @@
 				</a>
 			</div>
 		</main>
-		<section class="welcome_banner row no-gutters">
+		<section 
+			class="welcome_banner row no-gutters"
+		>
 			<div class="sectionone_banner col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<h1>Cuentas con Insurance MECH!</h1>
-				<p>Nuestro compromiso es con tu tranquilidad y bienestar en cada una de las etapas de tu vida.</p>
+				<h1
+					data-section="welcome-banner"
+					data-value="title"
+				>
+					Cuentas con Insurance MECH!
+				</h1>
+				<p
+					data-section="welcome-banner"
+					data-value="description"
+				>
+					Nuestro compromiso es con tu tranquilidad y bienestar en cada una de las etapas de tu vida.
+				</p>
 			</div>
 			<div class="sectiontwo_banner col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<p class="text-muted">
+				<p 
+					class="text-muted"
+					data-section="welcome-banner"
+					data-value="about"
+				>
 					Somos una agencia de seguros de salud y vida dedicada a proporcionarte la solución que se adapte a tus necesidades. 
 Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con todas las compañías de Medicare Advantage y ACA (Afordable Care Act), conocido como Obama Care. Te ayudamos a optar por mejores beneficios sin costo adicional! 
 
 				</p>
-				<p class=" text-muted">Además, contamos con un variado portafolio de productos para que estés siempre protegido en todas y cada una de las etapas de tu vida. </p>
-				<p class="text-muted">Seleccionar el plan adecuado puede resultar difícil, cuenta con nosotros!</p>
+				<p 
+					class="text-muted"
+					data-section="welcome-banner"
+					data-value="about-secondary"
+				>
+					Además, contamos con un variado portafolio de productos para que estés siempre protegido en todas y cada una de las etapas de tu vida.
+				</p>
+				<p 
+					class="text-muted"
+					data-section="welcome-banner"
+					data-value="about-final"
+				>
+					Seleccionar el plan adecuado puede resultar difícil, cuenta con nosotros!
+				</p>
 				<br>
-				<a class="banner_button" href="./views/productos.html">Productos</a>
+				<a 
+					class="banner_button"
+					data-section="welcome-banner"
+					data-value="cta"
+					href="./views/productos.html"
+				>
+					Productos
+				</a>
 			</div>
 		</section>
 		<section class="cards_container row no-gutters">
@@ -238,19 +273,36 @@ Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con to
 				<div class="flip-card">
 					<div class="flip-card-inner shadow">
 						<div class="flip-card-front text-left shadow">
-							<h3>Opciones de Medicare</h3>
-							<p>
+							<h3
+								data-section="cards"
+								data-value="cardOneTitle"
+							>
+								Opciones de Medicare
+							</h3>
+							<p
+								data-section="cards"
+								data-value="cardCta"
+							>
 								Planes
 								<i class="fas fa-arrow-right"></i>
 							</p>
 						</div>
 						<div class="flip-card-back text-left shadow">
-							<p>
+							<p
+								data-section="cards"
+								data-value="cardOnePlans"
+							>
 								Medicare Advantage <br>
 							   Suplementos de Medicare <br>
 							   Planes de Medicamentos recetados
 							</p>
-							<a href="./views/medicare.html">Ver más</a>
+							<a
+								data-section="cards"
+								data-value="cardSecondaryCta"
+								href="./views/medicare.html"
+							>
+								Ver más
+							</a>
 						</div>
 					</div>
 				</div>
@@ -259,15 +311,25 @@ Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con to
 				<div class="flip-card">
 					<div class="flip-card-inner shadow">
 						<div class="flip-card-front text-left shadow">
-							<h3>ACA <span style="font-size: 20px;">(Obamacare)</span>
-								</h3>
-							<p>
+							<h3
+								data-section="cards"
+								data-value="cardTwoTitle"
+							>
+								ACA <span style="font-size: 20px;">(Obamacare)</span>
+							</h3>
+							<p
+								data-section="cards"
+								data-value="cardCta"
+							>
 								Planes
 								<i class="fas fa-arrow-right"></i>
 							</p>
 						</div>
 						<div class="flip-card-back text-left shadow">
-							<p>
+							<p
+								data-section="cards"
+								data-value="cardTwoPlans"
+							>
 								HMO <br>
                                 EPO <br>
 					            Hospitalización <br>
@@ -275,9 +337,14 @@ Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con to
 							   Laboratorio <br>
 							   Exámenes preventivos <br>
 							   Maternidad 
-
 							</p>
-							<a href="./views/segurodesalud.html">Ver más</a>
+							<a
+								data-section="cards"
+								data-value="cardSecondaryCta"
+								href="./views/segurodesalud.html"
+							>
+								Ver más
+							</a>
 						</div>
 					</div>
 				</div>
@@ -286,23 +353,39 @@ Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con to
 				<div class="flip-card">
 					<div class="flip-card-inner shadow">
 						<div class="flip-card-front text-left shadow">
-							<h3>Otras opciones de salud</h3>
-							<p>
+							<h3
+								data-section="cards"
+								data-value="cardThreeTitle"
+							>
+								Otras opciones de salud
+							</h3>
+							<p
+								data-section="cards"
+								data-value="cardCta"
+							>
 								Planes
 								<i class="fas fa-arrow-right"></i>
 							</p>
 						</div>
 						<div class="flip-card-back text-left shadow">
-							<p>
+							<p
+								data-section="cards"
+								data-value="cardThreePlans"
+							>
 								Seguros privados <br>
 								Seguros de indemnización <br>
 				                Dental <br>	
                                 Visión <br>
 							    Enfermedades criticas/ cáncer <br>
 							    Pólizas accidentales
-
 							</p>
-							<a href="./views/segurodental.html">Ver más</a>
+							<a 
+								data-section="cards"
+								data-value="cardSecondaryCta"
+								href="./views/segurodental.html"
+							>
+								Ver más
+							</a>
 						</div>
 					</div>
 				</div>
@@ -312,16 +395,26 @@ Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con to
 				<div class="flip-card">
 					<div class="flip-card-inner shadow">
 						<div class="flip-card-front text-left shadow">
-							<h3>Seguros de Vida/                                                               
+							<h3
+								data-section="cards"
+								data-value="cardFourTitle"
+							>
+								Seguros de Vida/                                                               
 								Opciones Funerales	
-								</h3>
-							<p>
+							</h3>
+							<p
+								data-section="cards"
+								data-value="cardCta"
+							>
 								Planes
 								<i class="fas fa-arrow-right"></i>
 							</p>
 						</div>
 						<div class="flip-card-back text-left shadow">
-							<p>
+							<p
+								data-section="cards"
+								data-value="cardFourPlans"
+							>
 								Vida entera <br>
 								 Término <br>
 							     Pólizas Indexadas <br>
@@ -330,7 +423,13 @@ Nuestra asesoría es imparcial, personalizada e independiente: trabajamos con to
 							     Preneed (plan funeral) 	
 
 							</p>
-							<a href="./views/segurodevida.html">Ver más</a>
+							<a 
+								data-section="cards"
+								data-value="cardSecondaryCta"
+								href="./views/segurodevida.html"
+							>
+								Ver más
+							</a>
 						</div>
 					</div>
 				</div>

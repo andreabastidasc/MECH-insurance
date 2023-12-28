@@ -17,5 +17,25 @@
         "slide-two-button": "Contact us",
         "slide-three": "Immediate incorporation.",
         "slide-three-button": "Quote"
+    },
+    "welcome-banner": {
+        "title": "You can count on Insurance MECH!",
+        "description": "Our commitment is to your peace of mind and well-being at every stage of your life.",
+        "about": "We are a health and life insurance agency dedicated to providing you with the solution that fits your needs. Our advice is unbiased, personalized and independent: we work with all Medicare Advantage and ACA (Afordable Care Act) companies, known as Obama Care. We help you opt for better benefits at no additional cost!",
+        "about-secondary": "In addition, we have a varied portfolio of products so that you are always protected in each and every stage of your life.",
+        "about-final": "Choosing the right plan can be difficult, count on us!",
+        "cta": "Products"
+    },
+    "cards": {
+        "cardOneTitle": "Medicare Options",
+        "cardOnePlans": "Medicare Advantage <br> Medicare Supplement <br> Plans Prescription Drug Plans",
+        "cardTwoTitle": "ACA <span style='font-size: 20px'>(Obamacare)</span>",
+        "cardTwoPlans": "HMO <br> EPO <br> Hospitalization <br> Prescription Drugs <br> Laboratory <br> Preventive exams <br> Maternity",
+        "cardThreeTitle": "Other health options",
+        "cardThreePlans": "Private insurance <br> Indemnity insurance <br> Dental <br> Vision <br> Critical illnesses/cancer <br> Accidental policies",
+        "cardFourTitle": "Life Insurance/<br>Funeral Options",
+        "cardFourPlans": "Whole life <br> Term <br> Indexed Policies <br> Funeral expense insurance <br> Preneed (funeral plan)",
+        "cardCta": "Plans <i class='fas fa-arrow-right'></i>",
+        "cardSecondaryCta": "See more"
     }
 }
