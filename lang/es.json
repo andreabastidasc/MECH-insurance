@@ -48,5 +48,48 @@
         "item-three-description": "Eres diferente a los demás, nos ajustaremos a tu estilo de vida.",
         "item-four-title": "Empatía",
         "item-four-description": "Trabajeremos juntos para brindarte la seguridad que necesitas."
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "item-one-question": "¿Cómo funciona Medicare Original?",
+        "item-one-answer": "Medicare Original ofrece beneficios de seguro médico a ciudadanos estadounidenses y residentes legales permanentes de 65 años o más, o con discapacidad, con Parte A para hospitalización, Parte B para servicios médicos y Parte D para medicamentos recetados.",
+        "item-two-question": "¿Debo obtener una cobertura suplementaria?",
+        "item-two-answer": "Si no quiere ser responsable de su deducible de la parte B, el 20% del coaseguro y otros gastos médicos, el seguro complementario puede ser adecuado para usted. Contáctenos para más información.",
+        "item-three-question": "¿Puedo cambiar mi cobertura en cualquier momento?",
+        "item-three-answer": "Cada año, hay un período de inscripción abierta para Medicare Advantage y Medicare Parte D. Antes o después de la inscripción abierta, puede hacer un cambio si tiene un \"Período de elección especial\" de SEP. <br> También hay un período de inscripción abierta adicional para los participantes de la Parte B de Medicare que no se inscribieron cuando fueron elegibles por primera vez. Esta ventana se extiende desde el 1 de enero hasta el 31 de marzo, con cobertura a partir del 1 de julio. Antes o después de la inscripción abierta, puede inscribirse si califica para un \"Período de elección especial\" (SEP). Si está buscando más opciones o desea cambiar su cobertura, háganoslo saber.",
+        "item-four-question": "¿Cómo califico para el programa de ayuda adicional de Medicare o Medicaid?",
+        "item-four-answer": "Si tiene ingresos más bajos y tiene dificultades para pagar su Parte B, deducibles, coseguro o sus recetas, el Programa de Ayuda Adicional o el Programa de Ahorro de Medicare pueden ayudarlo a que sus costos de salud sean más asequibles de lo que serían con el plan Medicare y la Parte D de Medicare solamente. <br> Sus ingresos y recursos determinan el nivel de ayuda que recibe. Generalmente, los afiliados elegibles para Ayuda adicional en 2018 no pagarán más de $3.35 por recetas de medicamentos genéricos y $8.35 por medicamentos de marca. La elegibilidad se limita a los ingresos anuales. Si cree que califica para cualquiera de los programas, podemos ayudarlo.",
+        "item-five-question": "¿Que se entiende como seguros médicos mayores y cuando puedo inscribirme?",
+        "item-five-answer": "Los seguros médicos mayores no toman en cuenta enfermedades preexistentes y no tienen período de espera. En Estados Unidos existen dos seguros médicos mayores: Medicare y ACA (Ley de Cuidado de Salud a Bajo Precio), conocido como Obamacare. <br> Existen períodos anuales de inscripción establecidos, generalmente entre el 15 de octubre y el 15 de diciembre. Adicionalmente, existen períodos especiales de inscripción en cualquier fecha del año, si reúne los requisitos para los eventos calificados establecidos.",
+        "item-six-question": "¿Medicare es lo mismo que Medicaid?",
+        "item-six-answer": "No. <b>Medicare</b> es el seguro de salud que provee beneficios a ciudadanos estadounidenses y residentes legales permanentes de 65 años o más, personas que tengan una discapacidad avalada por el seguro social. <br> La parte A es el seguro de hospitalización. <br> La parte B es el seguro médico. <br> La parte D es el plan de medicinas. <br> <br> <b>Medicaid</b> es la ayuda que nos da el gobierno para pagar primas, deducibles y copagos de nuestro seguro de salud. Su ingreso y recursos determinan el nivel de ayuda que le será otorgado.",
+        "item-seven-question": "¿Cuál es la diferencia entre un \"Seguro para gastos finales\" y un \"Preneed\"?",
+        "item-seven-answer": "<b>Seguro para gastos finales o gastos funerales:</b> Usted asegura un monto destinado para sus gastos y paga primas mensuales bajas por un período determinado de tiempo o de por vida. <br> <b>Preneed:</b> Es una póliza de seguros vinculada a un contrato funerario. Usted elige productos y servicios cuyo precio queda garantizado y congelado de por vida, pagando primas mensuales, generalmente hasta por un período de 10 años.",
+        "item-eight-question": "¿Tengo 60 años, no reúno los requisitos para Medicare, el  Obama Care (ACA) me resulta costoso debido a mis ingresos, existe alguna  opción de salud disponible para mi?",
+        "item-eight-answer": "¡Claro que sí! Actualmente existen opciones para todos: planes de indemnización, pólizas dentales, visión, pólizas accidentales, enfermedades crónicas, cáncer, etc. <br> Busca asesoría profesional y especializada para conocer detalles y seleccionar el producto que se adapte a tus necesidades y presupuesto.",
+        "item-nine-question": "Me gustaría adquirir una póliza de vida para dejarle algo a mis hijos , sin embargo, aún no me ha llegado el social. ¿Que puedo hacer?",
+        "item-nine-answer": "Si reside en el país por un periodo no menor de 6 meses, con un documento sencillo de identificación (ITIN number) usted puede contratar un seguro de vida."
+    },
+    "call-banner": {
+        "title": "Muchas opciones. Muchas maneras de cuidarte.",
+        "subtitle": "<i class='fas fa-phone-volume'></i> Llama al <a href='tel:+1(281)780-7070'>+1(281)780-7070</a>"
+    },
+    "footer": {
+        "home": "Inicio",
+        "plans": "Planes",
+        "about": "Sobre Nosotros",
+        "products": "Productos",
+        "faq": "Preguntas frecuentes",
+        "contact": "<i class='fas fa-envelope'></i> Contáctanos",
+        "medicare": "Opciones de Medicare",
+        "aca": "ACA (Obamacare)",
+        "dental": "Dental",
+        "vision": "Visión",
+        "indemnity": "Seguros de indemnización",
+        "critical": "Enfermedades críticas/cáncer",
+        "incidental": "Pólizas accidentales",
+        "other": "Otras opciones de salud",
+        "life": "Seguro de vida/opciones funerales",
+        "support": "Contacto & Soporte"
     }
 }

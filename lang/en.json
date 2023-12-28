@@ -48,5 +48,47 @@
         "item-three-description": "You are different from others, we will adjust to your lifestyle.",
         "item-four-title": "Empathy",
         "item-four-description": "We will work together to provide you with the security you need."
+    },
+    "faq": {
+        "title": "FAQ",
+        "item-one-question": "How does Original Medicare work?",
+        "item-one-answer": "Original Medicare is a health insurance program that provides benefits to U.S. citizens and legal permanent residents who are 65 years of age or older, or who have a qualifying disability or illness. Medicare Part A is hospital insurance, Medicare Part B is medical insurance and Medicare Part D is prescription drug coverage.",
+        "item-two-question": "Should I get supplemental coverage?",
+        "item-two-answer": "If you do not want to be responsible for your Part B deductible, 20% coinsurance and other medical expenses, supplemental insurance may be right for you. Contact us for more information.",
+        "item-three-question": "Can I change my coverage at any time?",
+        "item-three-answer": "Every year, there is an open enrollment period for Medicare Advantage and Medicare Part D. Before or after the open enrollment, you can make a change if you have a Special Enrollment Period (SEP). <br> There is also an additional open enrollment period for Medicare Part B participants who did not enroll when they were first eligible. This window extends from January 1st to March 31st, with coverage starting on July 1st. Before or after the open enrollment, you can enroll if you qualify for a Special Enrollment Period (SEP). If you are looking for more options or want to change your coverage, let us know.",
+        "item-four-question": "How do I qualify for the Medicare or Medicaid Extra Help program?",
+        "item-four-answer": "If you have lower income and have difficulty paying for your Part B, deductibles, coinsurance, or prescriptions, the Extra Help Program or the Medicare Savings Program can help make your healthcare costs more affordable than they would be with Medicare and Medicare Part D alone. <br> Your income and resources determine the level of assistance you receive. Generally, eligible beneficiaries for Extra Help in 2018 will not pay more than $3.35 for generic prescription drugs and $8.35 for brand-name drugs. Eligibility is based on annual income. If you believe you qualify for either of the programs, we can assist you.",
+        "item-five-question": "What is major medical insurance and when can I enroll?",
+        "item-five-answer": "Major medical insurances do not take pre-existing conditions into account and do not have a waiting period. In the United States, there are two major medical insurances: Medicare and ACA (Affordable Care Act), known as Obamacare. <br> There are established annual enrollment periods, usually between October 15th and December 15th. Additionally, there are special enrollment periods at any time of the year if you meet the requirements for established qualifying events.",
+        "item-six-question": "Is Medicare the same as Medicaid?",
+        "item-six-answer": "No. <b>Medicare</b> is health insurance providing benefits to U.S. citizens and permanent residents aged 65 or older, or with a disability endorsed by social security. Part A is hospital insurance. Part B is medical insurance. Part D is the prescription drug plan. <br> <b>Medicaid</b> is government assistance to help pay health insurance premiums, deductibles, and copayments based on income and resources.",
+        "item-seven-question": "What is the difference between a \"Final Expense Insurance\" and a \"Preneed\"?",
+        "item-seven-answer": "<b>Final expense or funeral expense insurance:</b> You insure an amount designated for your expenses and pay low monthly premiums for a certain period of time or for the entire life. <br> <b>Preneed:</b> It is an insurance policy tied to a funeral contract. You choose products and services whose price is guaranteed and frozen for life, paying monthly premiums, usually for a period of up to 10 years.",
+        "item-eight-question": "I am 60 years old, I am not eligible for Medicare, Obama Care (ACA) is costly due to my income, is there a health option available to me?",
+        "item-eight-answer": "Certainly! Currently, there are options for everyone: indemnity plans, dental policies, vision, accidental policies, chronic illnesses, cancer, etc. <br> Seek professional and specialized advice to understand details and select the product that suits your needs and budget.",
+        "item-nine-question": "I would like to purchase a life insurance policy to leave something to my children, however, I have not yet received the social security. What can I do?",
+        "item-nine-answer": "If you reside in the country for a period of not less than 6 months, with a simple identification document (ITIN number) you can purchase life insurance."
+    },
+    "call-banner": {
+        "title": "Many options. Many ways to take care of yourself.",
+        "subtitle": "<i class='fas fa-phone-volume'></i> Call the <a href='tel:+1(281)780-7070'>+1(281)780-7070</a>" 
+    },
+    "footer": {
+        "plans": "Plans",
+        "about": "About Us",
+        "products": "Products",
+        "faq": "FAQ",
+        "contact": "<i class='fas fa-envelope'></i> Contact us",
+        "medicare": "Medicare options",
+        "aca": "ACA (Obamacare)",
+        "dental": "Dental",
+        "vision": "Vision",
+        "indemnity": "indemnity insurance",
+        "critical": "Critical illness/cancer",
+        "incidental": "Incidental policies",
+        "other": "Other options",
+        "life": "Life insurance/funeral options",
+        "support": "Contact & Support"
     }
 }
