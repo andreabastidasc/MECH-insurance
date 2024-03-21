@@ -90,5 +90,13 @@
         "other": "Other options",
         "life": "Life insurance/funeral options",
         "support": "Contact & Support"
+    },
+    "breadcrumbs": {
+        "contact": "Contact",
+        "index": "Home"
+    },
+    "contact": {
+        "title": "Contact us",
+        "description": "We will help you get insurance adapted to your budget and your needs."
     }
 }

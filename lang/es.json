@@ -91,5 +91,13 @@
         "other": "Otras opciones de salud",
         "life": "Seguro de vida/opciones funerales",
         "support": "Contacto & Soporte"
+    },
+    "breadcrumbs": {
+        "contact": "Contacto",
+        "index": "Inicio"
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "description": "Te ayudaremos a conseguir un seguro adaptado a tu presupuesto y a tus necesidades."
     }
 }
