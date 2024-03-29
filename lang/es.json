@@ -94,10 +94,84 @@
     },
     "breadcrumbs": {
         "contact": "Contacto",
-        "index": "Inicio"
+        "index": "Inicio",
+        "about-us": "Sobre nosotros",
+        "products": "Productos",
+        "medicare":"Opciones de Medicare",
+        "health": "Otras opciones de salud",
+        "life-insurance": "Seguro de vida/Opciones funerales"
     },
     "contact": {
         "title": "Contáctanos",
-        "description": "Te ayudaremos a conseguir un seguro adaptado a tu presupuesto y a tus necesidades."
+        "description": "Te ayudaremos a conseguir un seguro adaptado a tu presupuesto y a tus necesidades.",
+        "location": "Ubicación"
+    },
+    "contact-us-banner": {
+        "title": "Estas en buenas manos",
+        "subtitle": "Te protegemos en <br> cada paso que des.",
+        "button": "Contáctanos"
+    },
+    "contact-info": {
+        "send-mail": "Enviar mail",
+        "quote": "Cotizar"
+    },
+    "medicare": {
+        "title": "Opciones de Medicare",
+        "subtitle-two": "PDP: Planes de prescripción médica",
+        "subtitle-three": "Suplementos de Medicare",
+        "description-one": "A veces llamado Medicare Parte C o MA, es un tipo de plan de seguro médico en los Estados Unidos que brinda beneficios de Medicare a través de una aseguradora de salud del sector privado. Medicare Advantage, combina la parte A (Hospital), parte B (Médica) de su medicare Original y adiciona la parte C  (medicamentos recetados) en un solo plan. Usted estará protegido al 100% y sin ningún costo adicional. Muchos compañías suman otros beneficios, como cobertura dental, visión, productos sin receta médica, membresías en gimnasios, transportación, dispositivos auditivos, entre otros.<br><br>Los planes de Medicare Advantage tienen máximos de bolsillo, con lo cual sus finanzas estarán protegidas.",
+        "description-two": "Medicare Original (Partes A y B) no brinda cobertura de medicamentos recetados. Son planes independientes que puede comprar a través de compañías de seguros privadas. <br> <br> Los PDP brindan cobertura para medicamentos recetados y también pueden cubrir algunas vacunas. Es importante destacar que debe adquirir un plan de prescripción medica cuando es elegible, de lo contrario, deberá pagar una penalidad por el tiempo que estuvo sin cobertura.",
+        "description-three": "Medigap es un Seguro Suplementario de Medicare que ayuda a llenar ''brechas'' en Medicare original y es vendido por empresas privadas. Medicare Original paga gran parte, pero no la totalidad, del costo de los servicios y suministros de cuidado de salud cubiertos. Una póliza de Seguro Suplementario de Medicare (Medigap) puede ayudar a pagar algunos de los costos de cuidado de salud, como: copagos, coaseguros, deducibles."
+    },
+    "ACA": {
+        "subtitle-one": "ACA (Afordable Care Act), conocido como Obamacare",
+        "subtitle-two": "Características",
+        "subtitle-three": "Beneficios de ACA",
+        "subtitle-four": "Servicios gratuitos",
+        "description-two": "<span style='text-decoration: underline;'>Subsidios a las primas (créditos fiscales a las primas):</span> los subsidios a las primas, que en realidad son créditos fiscales, compensan el costo de las primas para cualquier plan de salud que cumpla con la ley ACA y que esté disponible a través de un mercado de la ACA.",
+        "description-one": "La Ley de Atención Médica Asequible, también conocida como Obamacare, es una legislación aprobada por el Congreso y promulgada por el presidente Barack Obama en 2010. Tenía como objetivo mejorar la asequibilidad y la calidad del seguro médico en los Estados Unidos e incluía disposiciones destinadas a hacer que la cobertura fuera asequible y accesible para millones de individuos que luchaban por pagar una cobertura individual, muchos de los cuales no podían comprarla a ningún precio debido a condiciones médicas preexistentes.",
+        "description-three":"Hospitalización, servicios ambulatorios, servicios de emergencia, cuidado de maternidad y recién nacido, salud mental y abuso de sustancias, medicamentos recetados, laboratorio, cuidado preventivo, urgencias médicas, atención dental y oftalmológica para niños, entre otros.",
+        "description-four": "Colonoscopias, control de ruta de colesterol y presión arterial, control de natalidad, vacunas de rutina, suministros de lactancia, detección de diabetes gestacional, pruebas de VPH, exámenes de VIH, gonorrea y hepatitis, cese del tabaco, prueba de detección de incompatibilidad Rh para mujeres embarazadas y muchos más.",
+        "second-description-two": "<span style='text-decoration: underline;'>Reducciones de costos compartidos:</span> además de los subsidios a las primas, ACA también ofrece reducciones de costos compartidos (CSR), también conocidas como subsidios de costos compartidos, que reducen los gastos de bolsillo de los afiliados elegibles.",
+        "second-description-one": "Según la ACA, todas las pólizas tienen emisión garantizada, lo que significa que se garantiza que se emitirá cobertura de salud a los solicitantes independientemente de su estado de salud, edad o ingresos."
+    },
+    "help": {
+        "title": "Podemos ayudarte!",
+        "description": "Estamos aquí para explicarte las opciones disponibles en el mercado y responder tus inquietudes con la finalidad de ayudarte a seleccionar la opción que se ajuste a tus necesidades. Solicita una cita con nuestros agentes, confiables y muy bien preparados. Te guiamos en todo el proceso, nuestra asesoría es personalizada!"
+    },
+    "health": {
+        "subtitle-one": "Seguros privados",
+        "description-one": "Cobertura máxima anual a su elección, copagos y deducibles. Tienen periodo de espera para enfermedades preexistentes.",
+        "subtitle-two": "Seguros de indemnización PPO",
+        "description-two": "Los planes de salud con beneficios limitados son una solución ideal para los consumidores responsables de la mayoría o todos los costos de atención médica. Con la red PHCS, puede obtener acceso a miles de hospitales, médicos e instalaciones auxiliares que han acordado importantes descuentos en sus servicios médicos.",
+        "second-description-two": "Los planes de indemnización médica pueden ayudar a las familias con la capacidad de presupuestar los gastos de atención médica, proporcionando múltiples beneficios de seguro médico fijo que pueden elegir de acuerdo con sus necesidades de atención médica. Estos planes brindan una buena cobertura básica hospitalaria, médica y de beneficios limitados para pacientes ambulatorios con beneficios adicionales de bienestar y beneficios de visitas al consultorio del médico para promover la atención preventiva. Dado que todos los beneficios están definidos en el plan, ayuda a permitir que el consumidor elija conscientemente los proveedores y el cuidado de los tratamientos.",
+        "subtitle-three":"Plan dental",
+        "description-three": "Sin periodos de espera ni cargos por enrolamiento, te cubre desde el primer día: tratamiento preventivo: exámenes, limpiezas. Cuidados básicos: rellenos, extracciones, rayos X panorámicos. Cuidados mayores: puentes, coronas, tratamientos de conductos, implantes, ortodoncia, tratamiento con fluoruro, y mas.",
+        "subtitle-four": "Plan visión",
+        "description-four": " Examen anual, monturas, lentes de contacto, lente sencillo, bifocal, trifocal, lenticulares.<br>Sin periodos de espera ni cargos por enrolamiento.",
+        "subtitle-five": "Enfermedades criticas/cáncer",
+        "description-five":"Este tipo de pólizas le ofrece beneficios que usted puede usar para pagar los gastos relacionados con una enfermedad critica y su tratamiento. Las enfermedades cubiertas son: ataque cardiaco, accidente cerebrovascular o insuficiencia renal en fase terminal, cáncer.<br>Puede tomar una póliza exclusiva para el cáncer y su tratamiento.",
+        "subtitle-six": "Plan accidental",
+        "description-six": "An accidental injury is a bodily injury caused solely by a sudden, unexpected, and unforeseen event. It can happen anywhere and at any time. Accidents cannot be prevented, but you can protect yourself and your family.<br>Benefits are paid directly to you, regardless of other insurance you have. Immediate coverage."
+    },
+    "life-insurance": {
+        "title": "Seguro de vida",
+        "subtitle-one": "Término",
+        "description-one": "El seguro de vida a término es el más simple de todos los seguros. El asegurado selecciona un monto de cobertura y define por cuantos años va a mantener la póliza. Este tiempo puede comprender desde 10 hasta 30 años.",
+        "second-description-one": "Una de sus grandes ventajas suele ser su bajo costo, al contratar por un tiempo determinado.",
+        "third-description-one": "Otro valor importante de las pólizas a término es que puedan transformarse en pólizas permanentes sin tener que someterse a un examen médico nuevo.",
+        "fourth-description-one": "Adicionalmente, las compañías ofrecen beneficios en vida: se podrán hacer avances de dinero de la póliza en caso de enfermedad terminal, critica o crónicas establecidas en el contrato.",
+        "subtitle-two": "Vida entera",
+        "description-two": "Mientras el titular de la póliza continúe pagando las primas, habrá beneficios por fallecimiento garantizados, primas niveladas y acumulación de valor en efectivo. Estas pólizas están diseñadas y tienen un precio para que una persona las conserve durante un período prolongado, lo que la convierte en un producto muy atractivo para mantener la protección a los allegados. A este producto se le adicionan los beneficios en vida en caso de condiciones especificadas en la póliza.",
+        "subtitle-three": "Vida  indexada (IUL)",
+        "description-three": "Funciona de la misma manera que una póliza de vida entera y, adicionalmente le ofrece  acumulación de valor en efectivo a intereses en función de los cambios de un índice de mercado importante.",
+        "second-description-three": "Este tipo de póliza tiene acumulación de dinero en efectivo además de los beneficios en vida en caso de enfermedad terminal, crónica o critica.",
+        "subtitle-four": "Seguro para gastos funerales",
+        "description-four": "Es una póliza de seguros en la cual usted establece un monto destinado para sus gastos funerales y pagara primas mensuales bajas por ello. Son seguros de duración permanente. Esto quiere decir que la póliza no expira mientras se sigan realizando los pagos correspondientes y los fondos estarán disponibles cuando la familia los necesite.",
+        "second-description-four": "La ventaja es que su familia puede disponer de los fondos según la necesidad del momento, ya que no existe contrato con una funeraria.",
+        "subtitle-five": "Preneed (prenecesidad)",
+        "description-five": "Es una póliza de seguro de vida con beneficios asignados al costo de un contrato funerario, el cual garantiza y congela los costos al precio de hoy. Un contrato funeral usualmente incluye servicios profesionales, ataúd y otros costos relacionados con el servicio funerario. Se paga por un tiempo determinado, generalmente 10 años.",
+        "second-description-five": "Al contratar un Preneed , usted estará aliviando a su familia y amigos de la toma de decisiones en un momento muy difícil a nivel emocional. Protéjase de la inflación: congele al precio de hoy y no incurrirá en desembolsos adicionales.",
+        "third-description-five": "Elija usted mismo sus preferencias: sus deseos serán respetados y cumplidos. Es un acto de amor y responsabilidad hacia sus seres queridos."
     }
 }

@@ -93,10 +93,84 @@
     },
     "breadcrumbs": {
         "contact": "Contact",
-        "index": "Home"
+        "index": "Home",
+        "about-us": "About us",
+        "products": "Products",
+        "medicare": "Medicare options",
+        "health": "Other healthcare options",
+        "life-insurance": "Life Insurance/Funeral Options"
     },
     "contact": {
         "title": "Contact us",
-        "description": "We will help you get insurance adapted to your budget and your needs."
+        "description": "We will help you get insurance adapted to your budget and your needs.",
+        "location": "Location"
+    },
+    "contact-us-banner": {
+        "title": "You are in good hands",
+        "subtitle": "We protect you in <br> every step you take.",
+        "button": "Contact us"
+    },
+    "contact-info": {
+        "send-mail": "Send mail",
+        "quote": "Get quote"
+    },
+    "medicare": {
+        "title": "Medicare options",
+        "subtitle-two": "PDP: Prescription Medical Plans",
+        "subtitle-three": "Medicare Supplements",
+        "description-one": "Sometimes called Medicare Part C or MA, it is a type of health insurance plan in the United States that provides Medicare benefits through a private sector health insurer. Medicare Advantage combines part A (Hospital), part B (Medical) of your Original Medicare and adds part C (prescription drugs) into a single plan. You will be 100% protected and at no additional cost. Many companies add other benefits, such as dental coverage, vision, over-the-counter products, gym memberships, transportation, hearing devices, among others.<br><br>Medicare Advantage plans have out-of-pocket maximums, so your finances will be protected.",
+        "description-two": "Original Medicare (Parts A and B) does not provide prescription drug coverage. They are stand-alone plans that you can purchase through private insurance companies. <br> <br> PDPs provide coverage for prescription drugs and may also cover some vaccines. It is important to note that you must purchase a prescription drug plan when you are eligible, otherwise you will have to pay a penalty for the time you were without coverage.",
+        "description-three": "Medigap is Medicare Supplement Insurance that helps fill ''gap'' in original Medicare and is sold by private companies. Original Medicare pays much, but not all, of the cost of covered health care services and supplies. A Medicare Supplement Insurance (Medigap) policy can help pay for some of your health care costs, such as: copays, coinsurance, deductibles."
+    },
+    "ACA": {
+        "subtitle-one": "ACA (Afordable Care Act), known as Obamacare",
+        "subtitle-two": "Characteristics",
+        "subtitle-three": "ACA benefits",
+        "subtitle-four": "Free services",
+        "description-two": "<span style='text-decoration: underline;'>Premium subsidies (premium tax credits):</span> Premium subsidies, which are actually tax credits, offset the cost of premiums for any ACA-compliant health plan that is available through an ACA marketplace.",
+        "second-description-two": "<span style='text-decoration: underline;'>Cost-sharing reductions:</span> In addition to premium subsidies, the ACA also offers cost-sharing reductions (CSRs), also known as cost-sharing subsidies, which reduce out-of-pocket expenses for eligible members.",
+        "description-one": "The Affordable Care Act, also known as Obamacare, is legislation passed by Congress and signed into law by President Barack Obama in 2010. It aimed to improve the affordability and quality of health insurance in the United States and included provisions aimed at make coverage affordable and accessible to millions of individuals struggling to afford individual coverage, many of whom were unable to purchase it at any price due to pre-existing medical conditions.",
+        "description-three":"Hospitalization, outpatient services, emergency services, maternity and newborn care, mental health and substance abuse, prescription medications, laboratory, preventive care, medical emergencies, dental and vision care for children, among others.",
+        "description-four": "Colonoscopies, cholesterol and blood pressure pathway monitoring, birth control, routine vaccines, breastfeeding supplies, gestational diabetes screening, HPV testing, HIV, gonorrhea and hepatitis testing, tobacco cessation, Rh incompatibility screening for pregnant women and many more.",
+        "second-description-one": "Under the ACA, all policies are guaranteed issue, meaning applicants are guaranteed to be issued health coverage regardless of their health status, age, or income."
+    },
+    "help": {
+        "title": "We can help you!",
+        "description": "We are here to explain the options available on the market and answer your questions in order to help you select the option that best suits your needs. Request an appointment with our agents, reliable and very well prepared. We guide you throughout the process, our advice is personalized!"
+    },
+    "health": {
+        "subtitle-one": "Private insurance",
+        "description-one": "Maximum annual coverage of your choice, co-payments and deductibles. They have a waiting period for pre-existing diseases.",
+        "subtitle-two": "PPO Indemnity Insurance",
+        "description-two": "Limited benefit health plans are an ideal solution for consumers responsible for most or all of their health care costs. With the PHCS network, you can gain access to thousands of hospitals, doctors and ancillary facilities that have agreed significant discounts on their medical services.",
+        "second-description-two": "Medical indemnity plans can assist families with the ability to budget for healthcare expenses by providing multiple fixed health insurance benefits that they can choose from based on their healthcare needs. These plans provide good basic hospital, medical, and limited outpatient benefit coverage with additional wellness benefits and doctor's office visit benefits to promote preventive care. Since all benefits are defined in the plan, it helps allow the consumer to consciously choose treatment providers and care.",
+        "subtitle-three":"Dental plan",
+        "description-three": "Without waiting periods or enrollment fees, it covers you from day one: preventive treatment: exams, cleanings. Basic care: fillings, extractions, panoramic X-rays. Major care: bridges, crowns, root canals, implants, orthodontics, fluoride treatment, and more.",
+        "subtitle-four": "Vision plan",
+        "description-four": "Annual exam, frames, contact lenses, single lenses, bifocal, trifocal, lenticulars.<br>No waiting periods or enrollment fees.",
+        "subtitle-five": "Critical illnesses/cancer",
+        "description-five": "This type of policy offers benefits that you can use to pay for expenses related to a critical illness and its treatment. The diseases covered are: heart attack, stroke or end-stage renal failure, cancer.<br>You can take out an exclusive policy for cancer and its treatment.",
+        "subtitle-six": "Accidental plan",
+        "description-six": "An accidental injury is a bodily injury caused solely by a sudden, unexpected, and unforeseen event. It can happen anywhere and at any time. Accidents cannot be prevented, but you can protect yourself and your family.<br>Benefits are paid directly to you, regardless of other insurance you have. Immediate coverage."
+    },
+    "life-insurance": {
+        "title": "Life Insurance/Funeral Options",
+        "subtitle-one": "Term",
+        "description-one": "Term life insurance is the simplest of all insurances. The insured selects a coverage amount and defines how many years he or she will maintain the policy. This time can range from 10 to 30 years.",
+        "second-description-one": "One of its great advantages is usually its low cost, when hiring for a certain period of time.",
+        "third-description-one": "Another important value of term policies is that they can be converted into permanent policies without having to undergo a new medical exam.",
+        "fourth-description-one": "Additionally, companies offer life benefits: money advances can be made from the policy in case of terminal, critical or chronic illness established in the contract.",
+        "subtitle-two": "Whole Life",
+        "description-two": "As long as the policyholder continues to pay the premiums, there will be guaranteed death benefits, level premiums, and cash value accumulation. These policies are designed and priced for a person to keep them for an extended period, making it a very attractive product to maintain protection for loved ones. This product also includes living benefits in case of specified conditions in the policy.",
+        "subtitle-three": "Indexed Universal Life (IUL)",
+        "description-three": "It works the same way as a whole life policy and additionally offers cash value accumulation with interest based on changes in a major market index.",
+        "second-description-three": "This type of policy has cash value accumulation in addition to living benefits in case of terminal, chronic, or critical illnesses.",
+        "subtitle-four": "Funeral Expense Insurance",
+        "description-four": "It is an insurance policy in which you establish an amount for your funeral expenses and pay low monthly premiums for it. They are permanent duration insurances. This means that the policy does not expire as long as the corresponding payments are made and the funds will be available when the family needs them.",
+        "second-description-four": "The advantage is that your family can use the funds as needed, as there is no contract with a funeral home.",
+        "subtitle-five": "Preneed",
+        "description-five": "It is a life insurance policy with benefits assigned to the cost of a funeral contract, which guarantees and freezes costs at today's price. A funeral contract usually includes professional services, a coffin, and other costs related to the funeral service. It is paid for a specified period, usually 10 years.",
+        "second-description-five": "By contracting a Preneed, you will be relieving your family and friends from making decisions at a very difficult emotional time. Protect yourself from inflation: freeze at today's price and you will not incur additional expenses.",
+        "third-description-five": "Choose your preferences yourself: your wishes will be respected and fulfilled. It is an act of love and responsibility towards your loved ones."
     }
 }
