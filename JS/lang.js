@@ -1,9 +1,9 @@
 addEventListener("DOMContentLoaded", (event) => {
     const langElement = document.getElementById("lang");
     const langTextElements = document.querySelectorAll("[data-section]");
-    let selectedLanguage = localStorage.getItem('selectedLanguage') || 'defaultLanguage'; // Default language if none selected
+    let selectedLanguage = localStorage.getItem('selectedLanguage') || 'defaultLanguage';
 
-    // Set initial language based on localStorage or default
+    langElement.value = selectedLanguage;
     changeLanguage(selectedLanguage);
 
     langElement.addEventListener("change", (e) => {
